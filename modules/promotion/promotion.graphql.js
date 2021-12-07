@@ -1,14 +1,14 @@
 const promotionType = `
     type Promotion {
         id: ID
-        item: Ring
-        promImage: String
+        ring: Ring
+        promImage: String!
     }`;
 
 const promotionInput = `
     input PromotionInput{
         id: ID
-        item: ID!
+        ring: ID!
         promImage: String!
     }
 `;
